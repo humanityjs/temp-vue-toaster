@@ -8,7 +8,7 @@
 ## Installation
 
 ```
-npm install --save vue-toaster
+npm install --save unicorn-vue-toaster
 ```
 
 ## Setup
@@ -16,7 +16,7 @@ npm install --save vue-toaster
 In your `main.js` file,
 
 ```
-import { ToasterEvents } from 'vue-toaster'
+import { ToasterEvents } from 'unicorn-vue-toaster'
 ```
 
 Add the toaster events to your vue instance as shown below:
@@ -41,7 +41,7 @@ Import the `Toaster` component in your App.vue and configure it using the exampl
 
 <script>
   import HelloWorld from './components/HelloWorld'
-  import { Toaster } from 'vue-toaster
+  import { Toaster } from 'unicorn-vue-toaster
 
   export default {
     name: 'App',
